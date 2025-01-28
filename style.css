@@ -25,7 +25,7 @@ nav {
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-between ;
     padding: 10px 0;
 }
 
@@ -35,6 +35,7 @@ nav {
 }
 
 nav ul {
+    margin-right: 150px;
     list-style: none;
     width: 100%;
     text-align: right;
@@ -50,7 +51,8 @@ nav ul li a {
     border-radius: 10px;
       text-decoration: none;
       background-color: inherit;
-      color: #000000;
+      color: #009c27;
+      margin-left: 50px;
       margin-bottom: 25px;
       padding-left: 10px;
       padding-right: 10px;
@@ -60,7 +62,7 @@ nav ul li a {
   
 nav ul li a:hover {
     background-color: inherit;
-    color: #ff9b02 ;
+    color: #ffffff ;
 }
   
 .footer_section {
@@ -96,6 +98,7 @@ nav ul li a:hover {
     margin-right: 3%;
 }
 .img1{
+    border-radius: 25px;
     width: 300px;
 }
 .block2{
@@ -137,4 +140,29 @@ nav ul li a:hover {
     margin-bottom: 1%;
     margin-left: 3%;
     margin-right: 3%;
+}
+.block4{
+    text-align: center;
+    padding:20px;
+    background-color:aliceblue;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 15%;
+    margin-right: 5%;
+    border-radius: 20px;
+}
+.block4 p{
+    color: #fff;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+h3{
+    color: #009c27;
+    width: 50%;
+    margin: 25px;
 }
